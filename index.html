@@ -12,6 +12,7 @@
       background-color: #0a0a0a;
       color: white;
       scroll-behavior: smooth;
+      overflow-x: hidden;
     }
 
     header {
@@ -45,7 +46,7 @@
 
     .hero {
       position: relative;
-      width: 100%;
+      width: 100vw;
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -100,12 +101,17 @@
     .gradient-divider {
       height: 200px;
       background: linear-gradient(to bottom, #0a0a0a, #006d8f);
+      width: 100vw;
+      box-sizing: border-box;
+      overflow-x: hidden;
     }
 
     .section {
-      padding: 5rem 2rem;
+      padding: 5rem 1rem;
       background-color: #006d8f;
-      width: 100%;
+      width: 100vw;
+      box-sizing: border-box;
+      overflow-x: hidden;
     }
 
     .section .container {
@@ -171,14 +177,15 @@
     </div>
   </section>
 
-  <section class="section" id="connect">
-    <div class="container">
-      <h2>Connect</h2>
-      <p>Follow us or reach out on LinkedIn:</p>
-      <a href="https://www.linkedin.com/company/second-chance-innovations" target="_blank" style="color:#0a66c2; font-weight:600; text-decoration:underline;">
-        Second Chance Innovations
-      </a>
-    </div>
-  </section>
+<section class="section" id="connect">
+  <div class="container">
+    <h2>Connect</h2>
+    <p>Follow us or reach out on LinkedIn:</p>
+    <a href="https://www.linkedin.com/company/second-chance-innovations" target="_blank">
+      <img src="linkedin.png" alt="LinkedIn Logo" style="height: 40px;">
+    </a>
+  </div>
+</section>
+
 </body>
 </html>
