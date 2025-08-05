@@ -128,13 +128,15 @@ nav a {
   width: auto;
   height: auto;
   max-width: 100%;
-  max-height: 400px;
+  max-height: 600px;         
   flex: 1 1 auto;
   border-radius: 12px;
   object-fit: contain;
   display: block;
   align-self: center;
+  margin-top: 2rem;        
 }
+
 
 .features-text {
   flex: 2 1 400px;
