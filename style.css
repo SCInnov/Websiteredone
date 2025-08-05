@@ -133,6 +133,7 @@ nav a {
   border-radius: 12px;
   object-fit: contain;
   display: block;
+  align-self: center;
 }
 
 .features-text {
