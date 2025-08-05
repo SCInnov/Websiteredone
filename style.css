@@ -125,12 +125,14 @@ nav a {
 }
 
 .features-image {
-  width: 100%;
-  max-width: 400px;
+  width: auto;
   height: auto;
-  flex: 1 1 400px;
+  max-width: 100%;
+  max-height: 400px;
+  flex: 1 1 auto;
   border-radius: 12px;
   object-fit: contain;
+  display: block;
 }
 
 .features-text {
