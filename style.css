@@ -111,7 +111,7 @@ nav a {
   overflow-x: hidden;
 }
 .container {
-  max-width: 1200px; /* Increased from 900px */
+  max-width: 900px; /* Increased from 900px */
   margin: auto;
   text-align: center;
   padding: 0 1rem;   /* Ensures some side spacing still exists */
