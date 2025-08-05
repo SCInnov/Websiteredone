@@ -110,11 +110,11 @@ nav a {
   box-sizing: border-box;
   overflow-x: hidden;
 }
-
 .container {
-  max-width: 900px;
+  max-width: 1200px; /* Increased from 900px */
   margin: auto;
   text-align: center;
+  padding: 0 1rem;   /* Ensures some side spacing still exists */
 }
 
 .features-layout {
