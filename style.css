@@ -145,6 +145,9 @@ nav a {
 a {
   color: inherit;
 }
+.feature-points p {
+  margin: 1rem 0;
+}
 
 @media (max-width: 768px) {
   .hero h1 {
