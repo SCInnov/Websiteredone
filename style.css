@@ -128,7 +128,7 @@ nav a {
 
 .features-image {
   width: 100%;
-  max-width: 500px;   
+  max-width: 400px;   
   height: auto;
   flex: 1 1 500px;     
   border-radius: 12px;
