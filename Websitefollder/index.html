@@ -3,148 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Product</title>
+  <title>Second Chance</title>
   <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Hammersmith One', sans-serif;
-      background-color: #0a0a0a;
-      color: white;
-      scroll-behavior: smooth;
-      overflow-x: hidden;
-    }
-
-    header {
-      position: sticky;
-      top: 0;
-      background-color: #0a0a0a;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 10;
-      flex-wrap: wrap;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .logo img {
-      height: 30px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: 600;
-    }
-
-    .hero {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #0a0a0a;
-      overflow: hidden;
-    }
-
-    .hero img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      opacity: 0;
-      animation: floatUpFade 2.5s ease-out forwards;
-      filter: brightness(0.9) blur(2px);
-      mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
-      -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
-    }
-
-    .hero-text {
-      position: relative;
-      text-align: center;
-      padding: 0 1rem;
-      z-index: 2;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-
-    .hero p {
-      font-size: 1.25rem;
-      max-width: 600px;
-      margin: 0.5rem auto 0;
-    }
-
-    @keyframes floatUpFade {
-      from {
-        transform: translateY(40px);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
-
-    .gradient-divider {
-      height: 200px;
-      background: linear-gradient(to bottom, #0a0a0a, #006d8f);
-      width: 100vw;
-      box-sizing: border-box;
-      overflow-x: hidden;
-    }
-
-    .section {
-      padding: 5rem 1rem;
-      background-color: #006d8f;
-      width: 100vw;
-      box-sizing: border-box;
-      overflow-x: hidden;
-    }
-
-    .section .container {
-      max-width: 900px;
-      margin: auto;
-      text-align: center;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2rem;
-      }
-
-      .hero p {
-        font-size: 1rem;
-      }
-
-      nav a {
-        margin: 0 0.5rem;
-        font-size: 0.9rem;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <div class="logo">
       <img src="logo.png" alt="Logo">
-      <div style="font-weight: bold; font-size: 1.5rem;">Second Chance</div>
+      <div class="logo-text">Second Chance</div>
     </div>
     <nav>
       <a href="#features">Features</a>
@@ -163,15 +30,15 @@
 
   <div class="gradient-divider"></div>
 
-<section class="section" id="features">
-  <div class="container features-layout">
-    <img src="features.png" alt="Product Feature" class="features-image">
-    <div class="features-text">
-      <h2>Features</h2>
-      <p>10–15 lbs of lift capacity<br>Adaptable modes for every stroke<br>Stable rest positions</p>
+  <section class="section" id="features">
+    <div class="container features-layout">
+      <img src="features.png" alt="Product Feature" class="features-image">
+      <div class="features-text">
+        <h2>Features</h2>
+        <p>10–15 lbs of lift capacity<br>Adaptable modes for every stroke<br>Stable rest positions</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <section class="section" id="about">
     <div class="container">
@@ -180,15 +47,14 @@
     </div>
   </section>
 
-<section class="section" id="connect">
-  <div class="container">
-    <h2>Connect</h2>
-    <p>Follow us or reach out on LinkedIn:</p>
-    <a href="https://www.linkedin.com/company/second-chance-innovations" target="_blank">
-      <img src="linkedin.png" alt="LinkedIn Logo" style="height: 70px;">
-    </a>
-  </div>
-</section>
-
+  <section class="section" id="connect">
+    <div class="container">
+      <h2>Connect</h2>
+      <p>Follow us or reach out on LinkedIn:</p>
+      <a href="https://www.linkedin.com/company/second-chance-innovations" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn Logo" class="linkedin-icon">
+      </a>
+    </div>
+  </section>
 </body>
 </html>
